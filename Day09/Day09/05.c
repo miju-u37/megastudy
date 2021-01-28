@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-
+/*
 void printResult(int total) {
 	if (total < 10) {
 		pritnf("main() 블록안의 변수 total의 값은 %d 입니다. \n", total);
 	}
 }
 
-int main(void) {
+int main_05(void) {
 
 	int i = 0;
 	int total = 0;
@@ -19,4 +19,4 @@ int main(void) {
 
 	printResult(total);
 	return 0;
-}
+}*/

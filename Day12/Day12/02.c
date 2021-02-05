@@ -30,6 +30,13 @@ int main(void) {
 		printf("%p->%d=%d\n", &p[i], p[i], *(p + i));
 	}
 
+	printf("\n\n");
+
+	p = realloc(p, 15 * sizeof(int)); 
+
+	for (int i = 0; i < 15; i++) {
+		printf("%p -> %d = %d\n", &p[i], p[i], *(p + i));
+	}
 	
 
 	free(p);
